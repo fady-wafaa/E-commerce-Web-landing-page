@@ -206,7 +206,7 @@ window.addEventListener('resize' , function () {
 $('.slide').hiSlide();
 
 setInterval(function newYear() {
-  const countDate = new Date('Dec 25, 2021 00:00:00').getTime();
+  const countDate = new Date('Dec 25, 2023 00:00:00').getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
 
